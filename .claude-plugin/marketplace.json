@@ -1,0 +1,25 @@
+{
+  "name": "skill-scanner",
+  "id": "skill-scanner",
+  "owner": {
+    "name": "baalyerob"
+  },
+  "metadata": {
+    "description": "Scans your agent environment and recommends the right skills for your project type",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-scanner",
+      "source": "./",
+      "description": "Detects project type (React, Python, Go, etc.), inventories installed skills and plugins, searches skills.sh for relevant tools, and recommends up to 5 missing skills. Integrates with skill-guard for safe installations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "baalyerob"
+      },
+      "keywords": ["scanner", "project-setup", "developer-tools", "recommendation", "claude-code"],
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}
