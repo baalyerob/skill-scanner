@@ -1,0 +1,11 @@
+{
+  "name": "skill-scanner",
+  "displayName": "Skill Scanner",
+  "description": "Scans your agent environment at project start and recommends the right skills for the job — detects project type, inventories installed skills, and recommends up to 5 missing tools.",
+  "version": "1.0.0",
+  "author": "baalyerob",
+  "license": "MIT",
+  "repository": "https://github.com/baalyerob/skill-scanner",
+  "keywords": ["scanner", "project-setup", "developer-tools", "claude-code", "ai-skills", "skill"],
+  "platforms": ["claude"]
+}
