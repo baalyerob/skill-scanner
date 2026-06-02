@@ -1,0 +1,11 @@
+{
+  "name": "skill-scanner",
+  "description": "Scans your Claude Code agent environment and recommends the right skills for the current project. Detects project type from package.json, requirements.txt, Cargo.toml, go.mod, CLAUDE.md. Inventories installed skills and plugins. Searches skills.sh. Recommends up to 5 missing tools. Actions: scan, audit, setup, start, recommend, check tools, what do I need, am I well equipped. Triggers: at project start, when user asks about their setup.",
+  "version": "1.0.0",
+  "author": {
+    "name": "baalyerob"
+  },
+  "license": "MIT",
+  "keywords": ["scanner", "project-setup", "developer-tools", "recommendation", "claude-code", "skill"],
+  "skills": ["./SKILL.md"]
+}
